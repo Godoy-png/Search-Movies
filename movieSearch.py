@@ -3,7 +3,7 @@ import json
 
 def reque(title):
     try:
-        req = requests.get('http://www.omdbapi.com/?apikey=8e3d0f3b&t=' + title + '&type=movie')
+        req = requests.get('http://www.omdbapi.com/?apikey=yourKey' + title + '&type=movie')
         dict = json.loads(req.text)
         return dict
     except:
