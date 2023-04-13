@@ -33,3 +33,4 @@ while not exi:
             print('Movie not found')
         else:
             print_details(movie)
+            
